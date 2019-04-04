@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+
+    <record id="group_hr_applicant_user" model="res.groups">
+        <field name="name">Solicitantes</field>
+        <field name="category_id" ref="base.module_category_hr_recruitment"/>
+    </record>
+
+    <record id="group_hr_recruitment_user_admin" model="res.groups">
+        <field name="name">Oficial Administrador</field>
+        <field name="category_id" ref="base.module_category_hr_recruitment"/>
+    </record>
+
+  </data>
+</odoo>
